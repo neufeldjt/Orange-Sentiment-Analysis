@@ -14,7 +14,7 @@ The complete visual programming canvas consists of four distinct sub-pipelines t
    * **Logistic Regression** (and corresponding visual Nomograms for feature weight)
    * **Random Forest**
    * **Naive Bayes**
-4. **Model Predictors**
+4. **Model Predictors:**
    * **M1:** Positive, negative, neutral, and compound columns as predictors of star rating.
    * **M2:** Used only positive and negative columns as predictors.
    * **M3:** Used only the compound column as a predictors.
