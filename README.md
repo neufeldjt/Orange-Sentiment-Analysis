@@ -22,6 +22,7 @@ The complete visual programming canvas consists of four distinct sub-pipelines t
 6. **Model Evaluation:** Models were evaluated using Test and Score and Confusion Matrix analyses; additional Test Data was evaluated using the most accurate classification model. Predictors changed for each subset of models; the target was always the star rating.  
 The accuracy of the models was evaluated using AUC, CA, F1, Precision, Recall, and Matthews Correlation Coefficient (MCC). This analysis specifically focuses on AUC, CA, and F1 as measures of accuracy.
 
+
 ## Key Results & Insights
 
 * **Target Variable:** Google Review Star Rating (Categorical / Ordinal classification).
