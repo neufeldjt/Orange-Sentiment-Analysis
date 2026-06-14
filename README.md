@@ -14,12 +14,16 @@ The complete visual programming canvas consists of four distinct sub-pipelines t
    * **Logistic Regression** (and corresponding visual Nomograms for feature weight)
    * **Random Forest**
    * **Naive Bayes**
-4. **Validation Pipelines (M4):** An isolated testing dataset undergoes identical imputation, text preprocessing, and sentiment analysis to evaluate true predictive accuracy on unseen data using standard Confusion Matrices.
-5. **Model Evaluation:** Models were evaluated using Test and Score and Confusion Matrix analyses; additional Test Data was evaluated using the most accurate classification model. Predictors changed for each subset of models; the target was always the star rating. The accuracy of the models was evaluated using AUC, CA, F1, Precision, Recall, and Matthews Correlation Coefficient (MCC). This analysis specifically focuses on AUC, CA, and F1 as measures of accuracy.
+4. **Model Predictors**
+  * **M1:** Positive, negative, neutral, and compound columns as predictors of star rating.
+  * **M2:** Used only positive and negative columns as predictors.
+  * **M3:** Used only the compound column as a predictors.
+  * **M4:** An isolated testing dataset undergoes identical imputation, text preprocessing, and sentiment analysis to evaluate predictive accuracy on food, atmosphere, and service as predictors of star rating using standard Confusion Matrices.
+6. **Model Evaluation:** Models were evaluated using Test and Score and Confusion Matrix analyses; additional Test Data was evaluated using the most accurate classification model. Predictors changed for each subset of models; the target was always the star rating. The accuracy of the models was evaluated using AUC, CA, F1, Precision, Recall, and Matthews Correlation Coefficient (MCC). This analysis specifically focuses on AUC, CA, and F1 as measures of accuracy.
 
 ## Key Results & Insights
 
 * **Target Variable:** Google Review Star Rating (Categorical / Ordinal classification).
 * **Feature Engineering:** Text-based sentiments extracted directly from local Calgary restaurant reviews.
-* **Best Performing Model:** *Random Forest on M1* achieved the highest Classification Accuracy (CA) and AUC score when processing the sentiment vectors.
+* **Best Performing Model:** *Random Forest on M4* achieved the highest Classification Accuracy (CA) and AUC score when processing the sentiment vectors.
 * **Key Discovery:** High positive sentiment polarity strongly correlates with 5-star ratings, whereas neutral-to-negative fluctuations heavily dictate the decision boundary between 1-star and 3-star ratings on the Nomograms.
