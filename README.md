@@ -21,8 +21,9 @@ The complete visual programming canvas consists of four distinct sub-pipelines t
    * **M4:** Undergoes identical imputation, text preprocessing, and sentiment analysis to evaluate predictive accuracy on food, atmosphere, and service as predictors of star rating using standard Confusion Matrices.
 6. **Model Evaluation:** Models were evaluated using Test and Score and Confusion Matrix analyses; additional Test Data was evaluated using the most accurate classification model. Predictors changed for each subset of models; the target was always the star rating.  
 The accuracy of the models was evaluated using AUC, CA, F1, Precision, Recall, and Matthews Correlation Coefficient (MCC). This analysis specifically focuses on AUC, CA, and F1 as measures of accuracy.
-<img width="411" height="182" alt="M1:M2" src="https://github.com/user-attachments/assets/8f4511ce-080c-45c9-9cd1-d495079a5c7b" />
-<img width="399" height="181" alt="M3:M4" src="https://github.com/user-attachments/assets/369e744a-0b19-4068-809c-77653376e6a4" />
+<img width="369" height="250" alt="M1:M2ARSA" src="https://github.com/user-attachments/assets/21bf616f-dfc0-41d5-b4ab-8ef990cea2d3" />
+<img width="369" height="250" alt="M3:M4ARSA" src="https://github.com/user-attachments/assets/adccb954-00fc-45c8-b141-f540f97a2be5" />
+
 
 ## Key Results & Insights
 
